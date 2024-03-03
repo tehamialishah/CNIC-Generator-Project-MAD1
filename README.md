@@ -9,7 +9,7 @@ it is not connected any server. it takes all of data from user and Dynamically p
 ![screencapture-127-0-0-1-8080-2024-03-03-08_13_35](https://github.com/tehamialishah/CNIC-Generator-Project-MAD1/assets/85039236/1296ca39-3680-48d2-9545-42532ddb436d)
 
 
-<img src="https://photos.google.com/photo/AF1QipNwA8pr98HS5kyG1ixBHBojaphbAH7GyBHWZPcy">
+https://photos.google.com/photo/AF1QipNwA8pr98HS5kyG1ixBHBojaphbAH7GyBHWZPcy
 
 
 
