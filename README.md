@@ -6,7 +6,8 @@ it is not connected any server. it takes all of data from user and Dynamically p
 
 <p>here's a interface Screenshots</p>
 
-<img src="https://photos.google.com/photo/AF1QipPVPxWT3KZqrC17jy2svi-SZNppy75hukAqr3jz">
+<img src="![screencapture-127-0-0-1-8080-2024-03-03-08_13_35](https://github.com/tehamialishah/CNIC-Generator-Project-MAD1/assets/85039236/e6427842-b1aa-4856-8748-33e5ffc8f029)
+">
 
 <img src="https://photos.google.com/photo/AF1QipNwA8pr98HS5kyG1ixBHBojaphbAH7GyBHWZPcy">
 
