@@ -6,7 +6,7 @@ it is not connected any server. it takes all of data from user and Dynamically p
 
 <p>here's a interface Screenshots</p>
 
-<img src="[./](https://photos.google.com/photo/AF1QipPVPxWT3KZqrC17jy2svi-SZNppy75hukAqr3jz)">
+<img src="https://photos.google.com/photo/AF1QipPVPxWT3KZqrC17jy2svi-SZNppy75hukAqr3jz">
 
 <img src="https://photos.google.com/photo/AF1QipNwA8pr98HS5kyG1ixBHBojaphbAH7GyBHWZPcy">
 
