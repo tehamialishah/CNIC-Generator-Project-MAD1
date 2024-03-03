@@ -10,19 +10,14 @@ it is not connected any server. it takes all of data from user and Dynamically p
       </ul>
   </li>
   <li>CSS<sub>3</sub>
-      <li>HTML<sub>5</sub>
       <ul>
           <li>HTML<sub>5</sub> is used for Structure</li>
       </ul>
-  </li>
   </li>
   <li>Dart
-    
-       <li>HTML<sub>5</sub>
       <ul>
           <li>HTML<sub>5</sub> is used for Structure</li>
       </ul>
-  </li>
   </li>
 </ul>
 
