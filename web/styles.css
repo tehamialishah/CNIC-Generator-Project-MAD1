@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@font-face {
+  font-family: 'my-font';
+  src: url(./Assets/fonts/southam-demo/Southam\ Demo.otf);
+}
+
+@font-face {
+  font-family: 'font2';
+  src: url(./Assets/fonts/holligate-signature-demo/Holligate\ Signature\ Demo.ttf);
+}
+
+.main {
+
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom, #068532, #389751, #58a96e, #76bb8b, #95cda8);
+}
+
+.cont {
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #068532, #389751, #58a96e, #76bb8b, #95cda8);
+}
+
+.right {
+
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputNameNLastName {
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FirstName {
+
+  display: flex;
+  width: 40%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+}
+
+.NFI {
+
+  display: flex;
+  width: 40%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+
+}
+
+.FatherNameNGender {
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #068532; */
+
+}
+
+.idNum-DateOfBirth {
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #068532; */
+}
+
+.areaCodeCont {
+
+  width: 40%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+
+}
+
+.areaCode {
+
+  width: 80%;
+  height: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+  text-align: center;
+  border: none;
+}
+
+.dateOfBirth {
+
+  width: 40%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+}
+
+.date {
+
+  color: rgb(148, 212, 177);
+  background-color: #068532;
+  border: none;
+  font-size: large;
+
+}
+
+.inputField {
+
+  width: 60%;
+  height: 3vh;
+  border-radius: 8px;
+  background-color: rgb(20, 83, 48);
+  color: rgb(148, 212, 177);
+  border: none;
+  padding: 2px;
+  text-align: center;
+}
+
+.buttondiv {
+
+  width: 65%;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+}
+
+.img-btn {
+
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+
+  width: 52%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(148, 212, 177);
+  background-color: #469F5E;
+}
+
+.text-img {
+
+  width: 80px;
+  text-align: center;
+}
+
+.img-upload {
+
+  color: #95cda8;
+  background-color: #068532;
+}
+
+input[type=file]::file-selector-button {
+  /* border: 2px solid #6c5ce7; */
+  padding: .2em .4em;
+  border-radius: .2em;
+  color: #068532;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #012E15;
+  transition: 1s;
+  border: none;
+  box-shadow: 0px 0px 5px 2px #76bb8b;
+
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #068532;
+  color: rgb(148, 212, 177);
+  /* border: 2px solid #00cec9; */
+}
+
+.border-right {
+
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.border-left {
+
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.myButton {
+
+  color: #068532;
+  width: 38%;
+  height: 5.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(1, 46, 21);
+  font-size: large;
+  font-weight: 600;
+  position: relative;
+  right: 2%;
+  bottom: 5%;
+  border: none;
+  box-shadow: 0px 0px 5px 2px #76bb8b;
+}
+
+.form {
+
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-image: linear-gradient(to top, #068532, #389751, #58a96e, #76bb8b, #95cda8);
+
+}
+
+.myButton:hover{
+
+  background-color: #068532;
+  color: rgb(148, 212, 177);
+
+}
+
+.myButton:active {
+
+  scale: 0.99;
+  color: #068532;
+  background-color: rgb(1, 46, 21);
+
+}
+
+.userIdDetails {
+
+  width: 36%;
+  height: 57vh;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-image: url(./Assets/images/cnic-png.png);
+  background-size: cover;
+  position: absolute;
+
+}
+
+.con-name {
+
+  width: 180px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  top: 28%;
+  right: 1%;
+  color: #464E3E;
+  font-weight: 600;
+}
+
+.con-father-name {
+
+  width: 180px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  top: 22.8%;
+  right: 1%;
+  color: #464E3E;
+  font-weight: 600;
+}
+
+.con-gender-country {
+
+  width: 105px;
+  height: 15px;
+  position: relative;
+  top: 12%;
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  right: 8%;
+  color: #464E3E;
+  font-weight: 600;
+}
+
+.con-idNum-DOB {
+
+  width: 178px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: small;
+  top: 1.4%;
+  right: 1.8%;
+  color: #464E3E;
+  font-weight: 600;
+}
+
+.con-issD-expD {
+
+  width: 180px;
+  height: 18px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: small;
+  bottom: 9%;
+  right: 1.5%;
+  color: #464E3E;
+  font-weight: 600;
+}
+
+.main-profile {
+
+  width: 118.6px;
+  height: 158px;
+  top: 26%;
+  position: absolute;
+  right: 6.8%;
+  border-radius: 2px;
+  background-color: white;
+
+}
+
+.main-profile-img {
+
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+}
+
+.small-profile {
+
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 7%;
+  top: 71.2%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.small-profile-img {
+
+  width: 35px;
+  height: 42px;
+  position: relative;
+  bottom: 5%;
+  mix-blend-mode: multiply;
+}
+
+.con-signature {
+
+  width: 110px;
+  height: 42px;
+  right: 6.9%;
+  top: 72.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: 'my-font';
+
+}
+
+/* //////////////////////////////////////////////////// */
+
+.main-Heading {
+
+  background: url(./Assets/images/pakistan-flag-gif.gif) 0 0 / contain repeat-x;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 65px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="scaffolded-by" content="https://github.com/dart-lang/sdk">
+  <title>ID Card Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="./Assets/images/nadra-logo-A7CA2E3C68-seeklogo.com.png">
+  <script defer src="main.dart.js"></script>
+</head>
+
+<body>
+
+
+  <div class="main">
+
+    <h1 class="main-Heading">National Identity Card Generator</h1>
+
+
+    <div class="cont">
+      <div class="left">
+        <form class="form">
+          <div class="inputNameNLastName">
+
+            <div class="FirstName border-right">Enter Your Name <input required type="text" class="inputField name">
+            </div>
+            <div class="FirstName border-left">Enter Your Last Name <input required type="text"
+                class="inputField lastName"></div>
+          </div>
+          <div class="FatherNameNGender">
+
+            <div class="NFI border-right">Enter Your Father Name <input type="text" required
+                class="inputField fatherName"></div>
+
+            <div class="NFI border-left"><span>Gender</span>
+                <input type="text" class="gender inputField fatherName">
+              
+            </div>
+          </div>
+
+          <div class="idNum-DateOfBirth">
+
+            <div class="areaCodeCont border-right">
+
+              <select name="areaCode" class="areaCode">
+                <option class="option" value="Select Your Area Code">
+                  Select Your Area Code</option>
+
+                <option class="option" value="42201">42201</option>
+                <option class="option" value="42301">42301</option>
+                <option class="option" value="42101">42101</option>
+                <option class="option" value="42401">42401</option>
+              </select>
+            </div>
+
+            <div class="dateOfBirth border-left">
+
+              <span>Select Date Of Birth</span>
+
+              <input required type="date" name="date" class="date">
+            </div>
+          </div>
+
+
+
+          <div class="img-btn">
+
+            <div class="image border-right">
+
+              <span class="text-img">upload picture</span>
+              <input required type="file" name="image/jpeg/png" class="img-upload">
+            </div>
+            <button type="submit" class="myButton">Submit</button>
+
+          </div>
+
+        </form>
+
+
+      </div>
+
+      <!-- /////////////////////////////////////////////// -->
+
+      <div class="right">
+
+        <div class="userIdDetails">
+
+          <div class="con-name"><span class="name-text"></span></div>
+          <div class="con-father-name"><span class="father-name-text"></span></div>
+          <div class="con-gender-country">
+
+            <span class="gender-text"></span>
+            <span class="country-text"></span>
+          </div>
+          <div class="con-idNum-DOB">
+
+            <span class="cnic-text"></span>
+            <span class="DOB-text"></span>
+          </div>
+          <div class="con-issD-expD">
+
+            <span class="issD-text"></span>
+            <span class="expD-text"></span>
+          </div>
+
+          <div class="main-profile">
+
+            <img class="main-profile-img" src="image" alt="">
+          </div>
+
+          <div class="small-profile">
+            <img class="small-profile-img" src="image" alt="">
+          </div>
+
+          <div class="con-signature">
+
+            <span class="signature-text"></span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
