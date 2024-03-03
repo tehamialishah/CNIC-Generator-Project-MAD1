@@ -1,8 +1,6 @@
 <h1>Dart-Web-Project >>> CNIC Generator</h1>
 <br />
-<p>The Project <b>CNIC Generator</b> it takes many input values like Name, full name, father name, gender, area code like 42201 <br />
-and it generates further 8 digits with area code by concatination and it takes date of birth, and takes image file (Locally) because <br />
-it is not connected any server. it takes all of data from user and Dynamically print it in card.</p>
+<p>The Project idea is about Generates CNIC from the user inputs, <b>"CNIC Generator"</b> takes input values like Name, full name, father name, gender, area code, image and it generates CNIC issue date by the System Current Date and also generates CNIC Expiry date and it generates 13 digit ID Card Number with area code. it takes date of birth, and takes image file (Locally) because it is not connected any server. it takes all of data from user and Dynamically print it in card.</p>
 <ul>
   <li><h2>HTML<sub>5</sub></h2>
       <ul>
