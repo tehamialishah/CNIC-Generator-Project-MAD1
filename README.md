@@ -21,7 +21,7 @@ it is not connected any server. it takes all of data from user and Dynamically p
   </li>
 </ul>
 
-<h2>here's a interface Screenshots</h2>
+<h2>here's a Screenshots of this Project</h2>
 
 ![screencapture-127-0-0-1-8080-2024-03-03-08_13_35](https://github.com/tehamialishah/CNIC-Generator-Project-MAD1/assets/85039236/1296ca39-3680-48d2-9545-42532ddb436d)
 
@@ -30,8 +30,14 @@ it is not connected any server. it takes all of data from user and Dynamically p
 
 
 
+<h2>Here's a Recorded video of this Project</h2>
+
 
   
+
+https://github.com/tehamialishah/CNIC-Generator-Project-MAD1/assets/85039236/10d34b1b-f3ae-403b-a305-9024caba17f8
+
+
 
 A bare-bones Dart web app.
 
