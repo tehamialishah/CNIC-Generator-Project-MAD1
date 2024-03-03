@@ -4,7 +4,7 @@
 and it generates further 8 digits with area code by concatination and it takes date of birth, and takes image file (Locally) because <br />
 it is not connected any server. it takes all of data from user and Dynamically print it in card.</p>
 
-<p>here's a interface Screenshots</p>
+<h2>here's a interface Screenshots</h2>
 
 ![screencapture-127-0-0-1-8080-2024-03-03-08_13_35](https://github.com/tehamialishah/CNIC-Generator-Project-MAD1/assets/85039236/1296ca39-3680-48d2-9545-42532ddb436d)
 
