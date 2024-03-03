@@ -4,19 +4,19 @@
 and it generates further 8 digits with area code by concatination and it takes date of birth, and takes image file (Locally) because <br />
 it is not connected any server. it takes all of data from user and Dynamically print it in card.</p>
 <ul>
-  <li>HTML<sub>5</sub>
+  <li><h2>HTML<sub>5</sub></h2>
       <ul>
-          <li>HTML<sub>5</sub> is used for Structure</li>
+          <li>HTML<sub>5</sub> is used for <i><b>Structure</b></i></li>
       </ul>
   </li>
-  <li>CSS<sub>3</sub>
+  <li><h2>CSS<sub>3</sub></h2>
       <ul>
-          <li>HTML<sub>5</sub> is used for Structure</li>
+          <li>CSS<sub>3</sub> is used for <i><b>Styling/Desingning</b></i></li>
       </ul>
   </li>
-  <li>Dart
+  <li><h2>Dart</h2>
       <ul>
-          <li>HTML<sub>5</sub> is used for Structure</li>
+          <li>Dart is used for <i><b>Functionality</b></i></li>
       </ul>
   </li>
 </ul>
